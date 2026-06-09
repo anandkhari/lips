@@ -1,6 +1,7 @@
 "use client";
 
 import CategorySection from "@/components/CategorySection";
+import DirectorNote from "@/components/DirectorNote";
 import LatestAchievements from "@/components/LatestAchievements";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/hero";
@@ -36,7 +37,8 @@ export default function Page() {
     <div>
       <Navbar />
       <Hero />
-      <LatestAchievements />
+      <DirectorNote />
+      {/* <LatestAchievements /> */}
 
       <section className="bg-white py-28 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
